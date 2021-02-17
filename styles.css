@@ -2,14 +2,13 @@ body {
     font-family: 'Mulish', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: gray;
-}
-section {
+    }
+    .container {
     margin-left: auto;
     margin-right: auto;
     width: 1120px;
 }
-h2 {
+.title {
     color: black;
     font-size: 36px;
     line-height: 1.56;
@@ -18,7 +17,7 @@ h2 {
     margin-top: 0;
     text-align: center;
 }
-h2::after {
+.title::after {
     display: block;
     content: '';
     width: 56px;
@@ -60,7 +59,7 @@ line-height: 1.52;
 color: black;
 font-weight: bold;
 }
-p {
+.article.text {
     color: #7D7987;
     font-size: 16px;
     line-height: 1,75;
@@ -74,7 +73,7 @@ a {
     font-weight: 600;
     text-decoration: none;
 }
-button {
+.button {
     font-family: inherit;
     padding: 16px 66px;
     font-size: 18px;
@@ -83,12 +82,37 @@ button {
     border: 1px solid;
     border-radius: 55px;
     font-weight: bold;
-    display: block;
+    display: inline-block;
     margin-left: auto;
     margin-right: auto;
     line-height: 1.2;
 }
+.article-section {
 
+}
+.healthcare-providers-section {
+    margin-top: 220;
+    margin-bottom: 220;
+    }
+.healthcare-provider-imges {
+    float: left;
+     margin-right:  137px;
+}
+.healthcare-providers-content {
+    padding-top: 57px;
+    }
+    .title-left {
+        text-align: left;
+        margin-bottom: 59px;
+    }
+    .healthcare-providers-text {
+        font-size: 18px;
+        line-height: 1.67;
+        color: #7D7987;
+        font-weight: 300px;
+        margin-bottom 37px;
+        
+    }
 
 
 
